@@ -120,3 +120,49 @@ section{
     padding: 30px;
 }
 /* rasume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+   color: #757575;
+   font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.resume .descrioption{
+    color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* CONTRACT STYLE */
+.contract{
+    display: flex;
+    gap: 100px;
+    background-color:#FFF8F3 ;
+    padding: 130px 200px;
+}
+.contract .section-title{
+    text-align: left;
+}
+.contract input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px ;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contract a{
+    text-decoration: none;
+}
